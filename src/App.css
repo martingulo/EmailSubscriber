@@ -1,0 +1,23 @@
+@import "tailwindcss";
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* text-align: center; */
+}
+
+::-webkit-scrollbar{
+  background-color: #06063d;
+    width: 5px;
+}
+
+::-webkit-scrollbar-button{
+  background-color: blue;
+}
+
+
+.main-hero{
+  background-image: url("./assets/bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
